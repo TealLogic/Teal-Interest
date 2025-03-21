@@ -91,7 +91,7 @@ function App() {
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-3">
             <img 
-              src="/dist/icons/favicon-32x32.png" 
+              src="/src/icons/favicon-32x32.png" 
               alt="Calculator" 
               className="w-8 h-8"
             />
