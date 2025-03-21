@@ -91,9 +91,10 @@ function App() {
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-3">
             <img 
-              src="/src/icons/favicon-32x32.png" 
+              src="/icons/favicon-32x32.png" 
               alt="Calculator" 
               className="w-8 h-8"
+              onError={(e) => e.currentTarget.style.display = 'none'}
             />
             <AnimatedTitle 
               text="Compound Interest Calculator"
