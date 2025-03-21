@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input[type="number"] {
+    @apply px-3 py-2 border rounded-md;
+  }
+  
+  select {
+    @apply px-3 py-2 border rounded-md;
+  }
+}
+
+/* Hide number input spinners */
+@layer base {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
