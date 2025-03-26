@@ -22,4 +22,7 @@
   input[type="number"] {
     -moz-appearance: textfield;
   }
+  html {
+    font-family: 'Varela Round', system-ui, sans-serif;
+  }
 }

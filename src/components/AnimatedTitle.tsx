@@ -14,7 +14,7 @@ export const AnimatedTitle: React.FC<AnimatedTitleProps> = ({ text, darkMode }) 
           className={`
             inline-block
             transition-all
-            duration-200
+            duration-100
             hover:scale-125
             hover:-translate-y-1
             hover:cursor-default
@@ -23,6 +23,7 @@ export const AnimatedTitle: React.FC<AnimatedTitleProps> = ({ text, darkMode }) 
               'hover:text-indigo-600 hover:drop-shadow-[0_0_8px_rgba(79,70,229,0.3)]'
             }
             ${char === ' ' ? 'w-[0.3em]' : ''}
+            select-none
           `}
         >
           {char}
